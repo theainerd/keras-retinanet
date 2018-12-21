@@ -16,6 +16,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
+# import comet_ml in the top of your file
+from comet_ml import Experiment
+
+# Add the following code anywhere in your machine learning file
+experiment = Experiment(api_key="oWiH86Pi5sqYSaVZmV1BYxBls",
+                        project_name="general", workspace="theainerd")
+
+# Run your code and go to https://www.comet.ml/
+
 import argparse
 import os
 import sys
