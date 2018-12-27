@@ -21,7 +21,7 @@ from comet_ml import Experiment
 
 # Add the following code anywhere in your machine learning file
 experiment = Experiment(api_key="oWiH86Pi5sqYSaVZmV1BYxBls",
-                        project_name="general")
+                        project_name="fashion-object-detection")
 
 # Run your code and go to https://www.comet.ml/
 
